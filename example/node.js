@@ -3,7 +3,6 @@ let { createServer } = require('../index.js')
 let server = createServer(function(conn) {
   conn.on('data', function(data) {
     console.log(data.toString())
-    server.close()
   })
   conn.send('hello from the server')
 })
