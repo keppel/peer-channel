@@ -1,6 +1,6 @@
 {
   "name": "peer-channel",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "create and connect to servers by name",
   "main": "index.js",
   "browser": "browser.js",
